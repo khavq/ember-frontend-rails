@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"sourceRoot": "/Users/khavuquang/Documents/dev/rails/ember-frontend/app/styles",
+	"file": "ember-frontend.css",
+	"sources": [
+		"../../sass_compiler-input_base_path-s54c7MbQ.tmp/app/styles/app.scss"
+	],
+	"sourcesContent": [
+		".monsters-index-list .monster {\n\twidth: 300px;\n\tbackground-color: #CCF;\n\tmargin: 3px;\n\tpadding: 3px;\n\tvertical-align: middle;\n\tborder: 1px solid black;\n\tfont-size: 30px;\n}\n\n.monster.dark {\n\tbackground-color: #AAD;\n}"
+	],
+	"mappings": "AAAA,AAAqB,oBAAD,CAAC,QAAQ,CAAC;EAC7B,KAAK,EAAE,KAAM;EACb,gBAAgB,EAAE,IAAK;EACvB,MAAM,EAAE,GAAI;EACZ,OAAO,EAAE,GAAI;EACb,cAAc,EAAE,MAAO;EACvB,MAAM,EAAE,eAAgB;EACxB,SAAS,EAAE,IAAK,GAChB;;AAED,AAAQ,QAAA,AAAA,KAAK,CAAC;EACb,gBAAgB,EAAE,IAAK,GACvB",
+	"names": []
+}

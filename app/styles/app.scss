@@ -1,0 +1,13 @@
+.monsters-index-list .monster {
+	width: 300px;
+	background-color: #CCF;
+	margin: 3px;
+	padding: 3px;
+	vertical-align: middle;
+	border: 1px solid black;
+	font-size: 30px;
+}
+
+.monster.dark {
+	background-color: #AAD;
+}

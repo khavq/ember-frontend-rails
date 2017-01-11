@@ -1,0 +1,12 @@
+<div class="monsters-index-list">
+<ul >
+{{#each model as |monster| }}
+<li class="monster {{if monster.active 'dark' }}" >
+{{monster.name}} {{monster.level}}
+<br>
+<button {{action 'toggleActive' monster }}>Toggle Active</button>
+</li>
+{{/each}}
+</ul>
+</div>
+{{outlet}}
