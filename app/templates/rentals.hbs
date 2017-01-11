@@ -9,11 +9,9 @@
     About Us
   {{/link-to}}
 </div>
-{{#list-filter filter=(action 'filterByCity') as |rentals|}}
 <ul class="results">
-    {{#each rentals as |rentalUnit|}}
+    {{#each model as |rentalUnit|}}
       <li>{{rental-listing rental=rentalUnit}}</li>
     {{/each}}
-    {{infinity-loader infinityModel=rentals}}
+    {{infinity-loader infinityModel=model}}
 </ul>
-{{/list-filter}}

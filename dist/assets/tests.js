@@ -6,7 +6,7 @@ define('ember-frontend/tests/adapters/application.jshint.lint-test', ['exports']
   QUnit.module('JSHint | adapters/application.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'adapters/application.js should pass jshint.');
+    assert.ok(false, 'adapters/application.js should pass jshint.\nadapters/application.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nadapters/application.js: line 4, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/app.jshint.lint-test', ['exports'], function (exports) {
@@ -15,7 +15,7 @@ define('ember-frontend/tests/app.jshint.lint-test', ['exports'], function (expor
   QUnit.module('JSHint | app.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'app.js should pass jshint.');
+    assert.ok(false, 'app.js should pass jshint.\napp.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 3, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 4, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 6, col 1, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\napp.js: line 13, col 3, \'object short notation\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\napp.js: line 18, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n7 errors');
   });
 });
 define('ember-frontend/tests/components/list-filter.jshint.lint-test', ['exports'], function (exports) {
@@ -24,7 +24,7 @@ define('ember-frontend/tests/components/list-filter.jshint.lint-test', ['exports
   QUnit.module('JSHint | components/list-filter.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/list-filter.js should pass jshint.');
+    assert.ok(false, 'components/list-filter.js should pass jshint.\ncomponents/list-filter.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/list-filter.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncomponents/list-filter.js: line 7, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/list-filter.js: line 8, col 17, \'spread/rest operator\' is only available in ES6 (use \'esversion: 6\').\ncomponents/list-filter.js: line 9, col 41, \'arrow function syntax (=>)\' is only available in ES6 (use \'esversion: 6\').\ncomponents/list-filter.js: line 13, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/list-filter.js: line 14, col 7, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/list-filter.js: line 15, col 7, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/list-filter.js: line 16, col 57, \'arrow function syntax (=>)\' is only available in ES6 (use \'esversion: 6\').\n\n9 errors');
   });
 });
 define('ember-frontend/tests/components/location-map.jshint.lint-test', ['exports'], function (exports) {
@@ -33,7 +33,7 @@ define('ember-frontend/tests/components/location-map.jshint.lint-test', ['export
   QUnit.module('JSHint | components/location-map.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/location-map.js should pass jshint.');
+    assert.ok(false, 'components/location-map.js should pass jshint.\ncomponents/location-map.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/location-map.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncomponents/location-map.js: line 5, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/location-map.js: line 6, col 21, \'spread/rest operator\' is only available in ES6 (use \'esversion: 6\').\ncomponents/location-map.js: line 7, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/location-map.js: line 8, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n6 errors');
   });
 });
 define('ember-frontend/tests/components/rental-listing.jshint.lint-test', ['exports'], function (exports) {
@@ -42,7 +42,7 @@ define('ember-frontend/tests/components/rental-listing.jshint.lint-test', ['expo
   QUnit.module('JSHint | components/rental-listing.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/rental-listing.js should pass jshint.');
+    assert.ok(false, 'components/rental-listing.js should pass jshint.\ncomponents/rental-listing.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/rental-listing.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncomponents/rental-listing.js: line 6, col 9, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('ember-frontend/tests/controllers/application.jshint.lint-test', ['exports'], function (exports) {
@@ -51,7 +51,7 @@ define('ember-frontend/tests/controllers/application.jshint.lint-test', ['export
   QUnit.module('JSHint | controllers/application.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'controllers/application.js should pass jshint.');
+    assert.ok(false, 'controllers/application.js should pass jshint.\ncontrollers/application.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncontrollers/application.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncontrollers/application.js: line 5, col 9, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('ember-frontend/tests/controllers/monsters.jshint.lint-test', ['exports'], function (exports) {
@@ -60,7 +60,7 @@ define('ember-frontend/tests/controllers/monsters.jshint.lint-test', ['exports']
   QUnit.module('JSHint | controllers/monsters.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'controllers/monsters.js should pass jshint.');
+    assert.ok(false, 'controllers/monsters.js should pass jshint.\ncontrollers/monsters.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncontrollers/monsters.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncontrollers/monsters.js: line 5, col 9, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('ember-frontend/tests/controllers/rentals.jshint.lint-test', ['exports'], function (exports) {
@@ -69,7 +69,7 @@ define('ember-frontend/tests/controllers/rentals.jshint.lint-test', ['exports'],
   QUnit.module('JSHint | controllers/rentals.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'controllers/rentals.js should pass jshint.');
+    assert.ok(false, 'controllers/rentals.js should pass jshint.\ncontrollers/rentals.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncontrollers/rentals.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncontrollers/rentals.js: line 5, col 9, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncontrollers/rentals.js: line 9, col 9, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n4 errors');
   });
 });
 define('ember-frontend/tests/helpers/destroy-app', ['exports', 'ember'], function (exports, _ember) {
@@ -129,7 +129,7 @@ define('ember-frontend/tests/helpers/rental-property-type.jshint.lint-test', ['e
   QUnit.module('JSHint | helpers/rental-property-type.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'helpers/rental-property-type.js should pass jshint.');
+    assert.ok(false, 'helpers/rental-property-type.js should pass jshint.\nhelpers/rental-property-type.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nhelpers/rental-property-type.js: line 3, col 1, \'const\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nhelpers/rental-property-type.js: line 9, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nhelpers/rental-property-type.js: line 9, col 35, \'destructuring binding\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nhelpers/rental-property-type.js: line 17, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n5 errors');
   });
 });
 define('ember-frontend/tests/helpers/resolver', ['exports', 'ember-frontend/resolver', 'ember-frontend/config/environment'], function (exports, _emberFrontendResolver, _emberFrontendConfigEnvironment) {
@@ -299,7 +299,7 @@ define('ember-frontend/tests/models/monster.jshint.lint-test', ['exports'], func
   QUnit.module('JSHint | models/monster.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'models/monster.js should pass jshint.');
+    assert.ok(false, 'models/monster.js should pass jshint.\nmodels/monster.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nmodels/monster.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/models/rental.jshint.lint-test', ['exports'], function (exports) {
@@ -308,7 +308,7 @@ define('ember-frontend/tests/models/rental.jshint.lint-test', ['exports'], funct
   QUnit.module('JSHint | models/rental.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'models/rental.js should pass jshint.');
+    assert.ok(false, 'models/rental.js should pass jshint.\nmodels/rental.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nmodels/rental.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/resolver.jshint.lint-test', ['exports'], function (exports) {
@@ -317,7 +317,7 @@ define('ember-frontend/tests/resolver.jshint.lint-test', ['exports'], function (
   QUnit.module('JSHint | resolver.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'resolver.js should pass jshint.');
+    assert.ok(false, 'resolver.js should pass jshint.\nresolver.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nresolver.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/router.jshint.lint-test', ['exports'], function (exports) {
@@ -326,7 +326,7 @@ define('ember-frontend/tests/router.jshint.lint-test', ['exports'], function (ex
   QUnit.module('JSHint | router.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'router.js should pass jshint.');
+    assert.ok(false, 'router.js should pass jshint.\nrouter.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nrouter.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nrouter.js: line 4, col 1, \'const\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nrouter.js: line 16, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n4 errors');
   });
 });
 define('ember-frontend/tests/routes/about.jshint.lint-test', ['exports'], function (exports) {
@@ -335,7 +335,7 @@ define('ember-frontend/tests/routes/about.jshint.lint-test', ['exports'], functi
   QUnit.module('JSHint | routes/about.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/about.js should pass jshint.');
+    assert.ok(false, 'routes/about.js should pass jshint.\nroutes/about.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/about.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/routes/contact.jshint.lint-test', ['exports'], function (exports) {
@@ -344,7 +344,7 @@ define('ember-frontend/tests/routes/contact.jshint.lint-test', ['exports'], func
   QUnit.module('JSHint | routes/contact.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/contact.js should pass jshint.');
+    assert.ok(false, 'routes/contact.js should pass jshint.\nroutes/contact.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/contact.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/routes/index.jshint.lint-test', ['exports'], function (exports) {
@@ -353,7 +353,7 @@ define('ember-frontend/tests/routes/index.jshint.lint-test', ['exports'], functi
   QUnit.module('JSHint | routes/index.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/index.js should pass jshint.');
+    assert.ok(false, 'routes/index.js should pass jshint.\nroutes/index.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/index.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-frontend/tests/routes/monsters.jshint.lint-test', ['exports'], function (exports) {
@@ -362,7 +362,7 @@ define('ember-frontend/tests/routes/monsters.jshint.lint-test', ['exports'], fun
   QUnit.module('JSHint | routes/monsters.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/monsters.js should pass jshint.');
+    assert.ok(false, 'routes/monsters.js should pass jshint.\nroutes/monsters.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/monsters.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nroutes/monsters.js: line 4, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('ember-frontend/tests/routes/rentals.jshint.lint-test', ['exports'], function (exports) {
@@ -371,7 +371,7 @@ define('ember-frontend/tests/routes/rentals.jshint.lint-test', ['exports'], func
   QUnit.module('JSHint | routes/rentals.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/rentals.js should pass jshint.');
+    assert.ok(false, 'routes/rentals.js should pass jshint.\nroutes/rentals.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/rentals.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/rentals.js: line 4, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nroutes/rentals.js: line 5, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n4 errors');
   });
 });
 define('ember-frontend/tests/services/maps.jshint.lint-test', ['exports'], function (exports) {
@@ -380,7 +380,7 @@ define('ember-frontend/tests/services/maps.jshint.lint-test', ['exports'], funct
   QUnit.module('JSHint | services/maps.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'services/maps.js should pass jshint.');
+    assert.ok(false, 'services/maps.js should pass jshint.\nservices/maps.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nservices/maps.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nservices/maps.js: line 4, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nservices/maps.js: line 5, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nservices/maps.js: line 14, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nservices/maps.js: line 15, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nservices/maps.js: line 16, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nservices/maps.js: line 16, col 32, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\nservices/maps.js: line 20, col 22, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\nservices/maps.js: line 25, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nservices/maps.js: line 26, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n11 errors');
   });
 });
 define('ember-frontend/tests/test-helper', ['exports', 'ember-frontend/tests/helpers/resolver', 'ember-qunit'], function (exports, _emberFrontendTestsHelpersResolver, _emberQunit) {
@@ -568,7 +568,7 @@ define('ember-frontend/tests/utils/google-maps.jshint.lint-test', ['exports'], f
   QUnit.module('JSHint | utils/google-maps.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'utils/google-maps.js should pass jshint.');
+    assert.ok(false, 'utils/google-maps.js should pass jshint.\nutils/google-maps.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nutils/google-maps.js: line 3, col 1, \'const\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 5, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nutils/google-maps.js: line 7, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 11, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 12, col 5, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 17, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 18, col 70, \'arrow function syntax (=>)\' is only available in ES6 (use \'esversion: 6\').\nutils/google-maps.js: line 20, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 21, col 9, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 23, col 34, \'object short notation\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nutils/google-maps.js: line 23, col 44, \'object short notation\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n12 errors');
   });
 });
 /* jshint ignore:start */

@@ -1,9 +1,9 @@
 {
 	"version": 3,
-	"sourceRoot": "/Users/khavuquang/Documents/dev/rails/ember-frontend/app/styles",
+	"sourceRoot": "/home/khavu/dev/projects/embers/ember-frontend-rails/app/styles",
 	"file": "ember-frontend.css",
 	"sources": [
-		"../../sass_compiler-input_base_path-KD0JwaYy.tmp/app/styles/app.scss"
+		"../../sass_compiler-input_base_path-iqpKtQRr.tmp/app/styles/app.scss"
 	],
 	"sourcesContent": [
 		".monsters-index-list .monster {\n\twidth: 300px;\n\tbackground-color: #CCF;\n\tmargin: 3px;\n\tpadding: 3px;\n\tvertical-align: middle;\n\tborder: 1px solid black;\n\tfont-size: 30px;\n}\n\n.monster.dark {\n\tbackground-color: #AAD;\n}"
